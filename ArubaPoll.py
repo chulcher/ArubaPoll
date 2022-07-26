@@ -16,7 +16,7 @@ def command_arguments_prompt():
     # Should probably be using argparse here instead
 
     _script_name = "pyArubaPoll.py"
-    print("Usage:  {script_name} (-h) <hostname|ip> (-p) <SSH port> (-u) <username> (-c) <command>")
+    print(f"Usage:  {_script_name} (-h) <hostname|ip> (-p) <SSH port> (-u) <username> (-c) <command>")
     print()
     print("  -h | --host        hostname or IP for target device")
     print("  -p | --port        (OPTIONAL) specify the port for SSH connection, defaults to 22")
